@@ -1,3 +1,14 @@
+.navbar {
+  padding-left: 980px;
+}
+
+.location {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
 body {
   background-image: url("new.jpeg");
   background-repeat: no-repeat;
@@ -9,23 +20,39 @@ body {
   text-align: center;
   padding-top: 100px;
   font-size: 75px;
+  margin-bottom: -40px;
+}
+
+#whoami {
+  color: #282725;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
 .logo {
-  height: 90px;
+  height: 70px;
 }
 
 .tools {
-  padding-left: 295px;
+  padding-left: 365px;
+  padding-bottom: 350px;
 }
 
-.navbar {
-  padding-left: 980px;
+.projectImagesLeft {
+  height: 700px;
+  width: 500px;
+  padding-left: 150px;
+  margin-right: 400px;
+  margin-bottom: -200px;
 }
 
-.location {
-  list-style-type: none;
-  display: inline-block;
-  padding-left: 30px;
-  font-size: 20px;
+.projectImagesRight {
+  height: 700px;
+  width: 500px;
+  padding-left: 700px;
+}
+
+.projectImagesLeft:hover {
+    opacity: 0.3;
 }
