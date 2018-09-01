@@ -138,14 +138,54 @@ body {
 }
 
 .contact {
-  margin: 100px 0px -10px 100px;
-  height: 700px;
-  opacity: 0.8;
+  margin: 20px 0px 20px 43px;
+  height: 650px;
+  opacity: 1;
 }
 
 #get {
   position: absolute;
-  margin: -650px 0px 0px 570px;
+  margin: 150px 0px 0px 20px;
   font-size: 50px;
   text-decoration: underline;
+  color: #0e1116;
+}
+
+#availability {
+  position: absolute;
+  margin: 220px 0px 0px 20px;
+  font-size: 30px;
+  /*text-decoration: underline;*/
+  color: #0e1116;
+}
+
+#contactInfoEmail {
+  position: absolute;
+  margin: 300px 0px 0px 40px;
+  font-size: 25px;
+  color: #0e1116;
+}
+
+#contactInfoLinkedin {
+  position: absolute;
+  margin: 350px 0px 0px 40px;
+  font-size: 25px;
+}
+
+#contactInfoGithub {
+  position: absolute;
+  margin: 400px 0px 70px 40px;
+  font-size: 25px;
+}
+
+a {
+  color: #0e1116;
+  text-decoration: none;
+}
+
+#cellphone {
+  margin: 100px 0px 0px 732px;
+  height: 400px;
+  width: 550px;
+  opacity: 0.6;
 }
