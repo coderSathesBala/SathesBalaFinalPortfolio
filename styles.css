@@ -1,5 +1,8 @@
+/*NAVBAR*/
+
 .navbar {
   padding-left: 980px;
+  color: white;
 }
 
 .location {
@@ -10,13 +13,16 @@
 }
 
 body {
-  background-image: url("new.jpeg");
+  background-image: url("ttc.jpeg");
   background-repeat: no-repeat;
   background-size: 1300px;
 }
 
+
+/*LANDING PAGE*/
+
 #name {
-  color: #282725;
+  color: white;
   text-align: center;
   padding-top: 100px;
   font-size: 75px;
@@ -24,7 +30,7 @@ body {
 }
 
 #whoami {
-  color: #282725;
+  color: white;
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
@@ -34,10 +40,16 @@ body {
   height: 70px;
 }
 
-.tools {
-  padding-left: 365px;
-  padding-bottom: 350px;
+#css {
+  height: 63px;
 }
+
+.tools {
+  padding-left: 400px;
+  padding-bottom: 550px;
+}
+
+/*PROJECTS*/
 
 .projectImagesLeft {
   height: 700px;
@@ -53,6 +65,87 @@ body {
   padding-left: 700px;
 }
 
-.projectImagesLeft:hover {
-    opacity: 0.3;
+.projectWholeLeft {
+  color: white;
+  background-color: #c92b00;
+  position: absolute;
+  padding: 10px 30px 200px 30px;
+  margin: 40px 0px 0px 185px;
+  text-align: center;
+  opacity: 0;
+}
+
+.projectWholeLeft:hover {
+  opacity: 1;
+  transition: 0.9s;
+}
+
+.projectTitleLeft {
+  font-size: 75px;
+  margin: 20px;
+  text-align: center;
+}
+
+.projectLanguagesLeft {
+  font-size: 28px;
+}
+
+.projectDescriptionLeft {
+  font-size: 17px;
+}
+
+.projectButtonLeft {
+  padding: 10px 150px 10px 150px;
+  font-size: 15px;
+  font-weight: 900;
+  color: #c92b00;
+}
+
+.projectWholeRight {
+  color: white;
+  background-color: #c92b00;
+  position: absolute;
+  padding: 10px 30px 200px 30px;
+  margin: 40px 0px 0px 737px;
+  text-align: center;
+  opacity: 0;
+}
+
+.projectWholeRight:hover {
+  opacity: 1;
+  transition: 0.9s;
+}
+
+.projectTitleRight {
+  font-size: 75px;
+  margin: 20px;
+  text-align: center;
+}
+
+.projectLanguagesRight {
+  font-size: 28px;
+}
+
+.projectDescriptionRight {
+  font-size: 17px;
+}
+
+.projectButtonRight {
+  padding: 10px 150px 10px 150px;
+  font-size: 15px;
+  font-weight: 900;
+  color: #c92b00;
+}
+
+.contact {
+  margin: 100px 0px -10px 100px;
+  height: 700px;
+  opacity: 0.8;
+}
+
+#get {
+  position: absolute;
+  margin: -650px 0px 0px 570px;
+  font-size: 50px;
+  text-decoration: underline;
 }
