@@ -1,56 +1,65 @@
 /*NAVBAR*/
 
 .navbar {
-  padding-left: 980px;
   color: white;
+  padding-top: 20px;
 }
 
 .location {
+  color: black;
   list-style-type: none;
   display: inline-block;
   padding-left: 10px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .location:hover {
   text-decoration: underline;
 }
 
-body {
+/*LANDING PAGE*/
+body, html {
   cursor: default;
-  background-image: url("ttc.jpeg");
-  background-repeat: no-repeat;
+  height: 100%;
+  margin-top: -8px;;
 }
 
+.landingPage {
+  /* The image used */
+  background-image: url("landingpage.jpeg");
 
-/*LANDING PAGE*/
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 60px;
+}
 
 #name {
-  color: white;
-  text-align: center;
-  padding-top: 100px;
+  color: black;
+  text-align: left;
+  padding: 8% 0px 0px 4%;
   font-size: 75px;
-  margin-bottom: -40px;
+  margin-bottom: -4%;
 }
 
 #whoami {
-  color: white;
-  text-align: center;
-  font-size: 30px;
+  color: black;
+  text-align: left;
+  padding-left: 4%;
+  font-size: 40px;
+  margin-bottom: -3%;
+}
+
+#skills {
+  color: black;
+  text-align: left;
+  font-size: 35px;
   margin-bottom: 20px;
-}
-
-.logo {
-  height: 70px;
-}
-
-#css {
-  height: 63px;
-}
-
-.tools {
-  padding-left: 400px;
-  padding-bottom: 550px;
+  padding-left: 4%;
 }
 
 /*PROJECTS*/
@@ -73,7 +82,7 @@ body {
   color: white;
   background-color: #c92b00;
   position: absolute;
-  padding: 10px 30px 200px 30px;
+  padding: 10px 30px 50px 30px;
   margin: 40px 0px 0px 185px;
   text-align: center;
   opacity: 0;
@@ -109,7 +118,7 @@ body {
   color: white;
   background-color: #c92b00;
   position: absolute;
-  padding: 10px 30px 200px 30px;
+  padding: 10px 30px 180px 30px;
   margin: 40px 0px 0px 737px;
   text-align: center;
   opacity: 0;
@@ -149,42 +158,34 @@ body {
 }
 
 .wholeContact {
-  margin-left: 45%;
+  margin-left: 5%;
 }
 
 #get {
-  position: absolute;
-  margin: 150px 0px 0px 20px;
   font-size: 50px;
   text-decoration: underline;
   color: #0e1116;
 }
 
 #availability {
-  position: absolute;
-  margin: 220px 0px 0px 20px;
   font-size: 30px;
-  /*text-decoration: underline;*/
   color: #0e1116;
 }
 
 #contactInfoEmail {
-  position: absolute;
-  margin: 300px 0px 0px 40px;
   font-size: 25px;
   color: #0e1116;
 }
 
 #contactInfoLinkedin {
-  position: absolute;
-  margin: 350px 0px 0px 40px;
   font-size: 25px;
+  text-decoration-line: underline;
 }
 
 #contactInfoGithub {
-  position: absolute;
-  margin: 400px 0px 70px 40px;
   font-size: 25px;
+  margin-bottom: 2%;
+  text-decoration-line: underline;
 }
 
 a {
@@ -192,9 +193,6 @@ a {
   text-decoration: none;
 }
 
-#cellphone {
-  margin-top: 100px;
-  height: 400px;
-  width: 550px;
-  opacity: 0.6;
+#lastOne {
+  margin-bottom: 1px;
 }
