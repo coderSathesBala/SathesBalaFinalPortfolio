@@ -117,7 +117,7 @@ body, html {
   color: white;
   background-color: #c92b00;
   position: absolute;
-  padding: 10px 30px 180px 30px;
+  padding: 10px 30px 170px 30px;
   margin: 40px 0px 0px 737px;
   margin-left: 57%;
   text-align: center;
@@ -290,5 +290,104 @@ a {
       margin-left: 130px;
       margin-top: 275px;
     }
+}
 
+/*MOBILE*/
+
+@media only screen and (max-width: 600px) {
+  .navbar { opacity: 0;}
+
+  #firstProjectWhole {
+    margin-left: 5px;
+    margin-top: 45px;
+  }
+
+  #firstImage {
+    margin-top: -15px;
+  }
+
+  .projectImagesLeft {
+  margin-left: 0px;
+  width: 330px;
+  height: 550px;
+  }
+
+  .projectWholeLeft {
+    margin-left: 5px;
+    padding: 0px;
+    padding-bottom: 20px;
+    width: 320px;
+    text-align: center;
+    opacity: 1;
+  }
+
+  .projectTitleLeft {
+    font-size: 40px;
+  }
+
+
+  .projectLanguagesLeft {
+    font-size: 18px;
+  }
+
+  .projectDescriptionLeft {
+    font-size: 15px;
+  }
+
+  .projectButtonLeft {
+    padding: 3px 3px 6px 3px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #c92b00;
+  }
+
+  .projectImagesRight {
+    margin-left: 0px;
+    margin-top: 90px;
+    width: 330px;
+    height: 550px;
+  }
+
+
+  .projectWholeRight {
+    margin-left: 5px;
+    margin-top: 150px;
+    padding: 0px;
+    padding-bottom: 20px;
+    width: 320px;
+    text-align: center;
+    opacity: 1;
+  }
+
+  .projectTitleRight {
+    font-size: 40px;
+  }
+
+
+  .projectLanguagesLeft {
+    font-size: 18px;
+  }
+
+  .projectDescriptionRight {
+    font-size: 15px;
+  }
+
+  .projectButtonRight {
+    padding: 3px 3px 6px 3px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #c92b00;
+  }
+
+  #contactInfoEmail {
+    font-size: 15px;
+  }
+
+  #contactInfoLinkedin {
+    font-size: 15px;
+  }
+
+  #contactInfoGithub {
+    font-size: 15px;
+  }
 }
