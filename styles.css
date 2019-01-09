@@ -34,7 +34,6 @@ body, html {
 }
 
 .landingPage {
-  opacity: 0.7;
   /* The image used */
   background-image: url("landingpage.jpeg");
 
@@ -85,7 +84,7 @@ body, html {
   justify-self: end;
 }
 
-.projectWhole {
+.Whole {
   justify-self: start;
 }
 
@@ -168,6 +167,10 @@ a {
     font-size: 35px;
     margin-bottom: 20px;
     padding-left: 3%;
+  }
+
+  .Whole {
+    width: 75%;
   }
 }
 
@@ -277,5 +280,9 @@ a {
 
   #contactInfoGithub {
     font-size: 13px;
+  }
+
+  .landingPage {
+    opacity: 0.7;
   }
 }
