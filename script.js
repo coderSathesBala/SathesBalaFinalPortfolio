@@ -2,7 +2,7 @@ var scroll_start = 0;
 //Scroll Function
 $(document).ready(function() {
   $("#projects").on("click", function() {
-    var answer = $(".projectWholeLeft").offset().top
+    var answer = $(".Title").offset().top
       window.scroll({
         top: answer - 100,
         behavior: 'smooth'
