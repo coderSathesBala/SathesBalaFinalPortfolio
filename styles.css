@@ -46,6 +46,11 @@ body, html {
   margin-bottom: 60px;
 }
 
+#projectTitle {
+  font-size: 55px;
+  text-align: center;
+}
+
 #name {
   color: black;
   text-align: left;

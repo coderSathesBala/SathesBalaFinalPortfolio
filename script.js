@@ -4,7 +4,7 @@ $(document).ready(function() {
   $("#projects").on("click", function() {
     var answer = $(".Title").offset().top
       window.scroll({
-        top: answer - 100,
+        top: answer - 140,
         behavior: 'smooth'
       })
   })
