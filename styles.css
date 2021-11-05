@@ -75,6 +75,19 @@ body, html {
   padding-left: 4%;
 }
 
+/* ABOUT ME */
+.aboutMeSection {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  margin: 13rem 7rem 13rem 7rem;
+  column-gap: 1em;
+}
+
+.aboutMeWords {
+  width: 50rem;
+  font-size: 1.4rem;
+}
+
 /*PROJECTS*/
 .projects {
   display: grid;
@@ -226,6 +239,17 @@ a {
 
   .Description {
     font-size: 0.8em;
+  }
+
+  .aboutMeSection {
+    display: inline-block;
+  }
+  .aboutMeWords {
+    width: 30rem;
+  }
+
+  #aboutMePic {
+    width: 20rem;
   }
 }
 
